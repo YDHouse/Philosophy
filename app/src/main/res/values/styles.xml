@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- 커스텀 액션바 선언 시에는 스타일의 액션바를 노액션바로 만들 경우 화면에
+         액션바가 표시가 되지 않으므로 디폴트 스타일을 적용해야 한다.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionBarSize">25dp</item> <!--액션바의 높이-->
+        <item name="android:windowContentOverlay">@null</item>  <!--액션바 하단 쉐도우 제거-->
+    </style>
+
+    <!-- 액션바 제거-->
+    <!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    -->
+
+    <!-- 커스텀 툴바에 스타일 적용-->
+    <!--
+    <style name="Toolbar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/common_action_bar_splitter</item>
+        <item name="android:title">@string/app_title</item>
+    </style>
+    -->
+</resources>

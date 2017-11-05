@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.philosophy.yd.yourphilosophy.A10_Category">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_actionbar_sub_layout"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/custom_actionbar_sub_layout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:id="@+id/btnCategory01"
+                    android:text="@string/category01"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="1/자유로운 삶을 위하여" />
+
+                <Button
+                    android:id="@+id/btnCategory02"
+                    android:text="@string/category02"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="2/후회없는 인생을 위하여" />
+
+                <Button
+                    android:id="@+id/btnCategory03"
+                    android:text="@string/category03"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="3/흔들리는 그대에게" />
+
+                <Button
+                    android:id="@+id/btnCategory04"
+                    android:text="@string/category04"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="4/사랑에 대하여" />
+
+                <Button
+                    android:id="@+id/btnCategory05"
+                    android:text="@string/category05"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="5/원하는 것을 얻기 위해서" />
+
+                <Button
+                    android:id="@+id/btnCategory06"
+                    android:text="@string/category06"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="6/꿈을 쫓는 모험가들에게" />
+
+                <Button
+                    android:id="@+id/btnCategory07"
+                    android:text="@string/category07"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="7/진리를 추구하는 자들에게" />
+
+                <Button
+                    android:id="@+id/btnCategory08"
+                    android:text="@string/category08"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="8/배움의 종착역" />
+
+                <Button
+                    android:id="@+id/btnCategory09"
+                    android:text="@string/category09"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_normal_states"
+                    android:onClick="onClickCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:tag="9/좋지 못한 것에 대하여" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:background="@color/textWhite"
+        android:orientation="horizontal" />
+
+</android.support.v4.widget.DrawerLayout>

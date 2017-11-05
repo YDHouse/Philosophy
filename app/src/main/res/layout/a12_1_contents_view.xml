@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.philosophy.yd.yourphilosophy.A12_ContentsAndFavoriteView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_actionbar_sub_layout"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnFavoriteDelete"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:onClick="onClickedAction"
+                android:background="@drawable/button_favorite_delete_state"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/favoriteDelete"
+                android:textColor="@color/textWhite"
+                android:visibility="invisible"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPrevious"
+                android:layout_height="45dp"
+                android:layout_width="45dp"
+                android:onClick="onClickedAction"
+                android:background="@drawable/icon_previous_states"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/btnFavoriteDelete"
+                android:layout_marginEnd="20dp" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_height="45dp"
+                android:layout_width="45dp"
+                android:onClick="onClickedAction"
+                android:background="@drawable/icon_next_states"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/btnFavoriteDelete"
+                android:layout_marginStart="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:background="@color/textWhite"
+        android:orientation="horizontal" />
+
+</android.support.v4.widget.DrawerLayout>

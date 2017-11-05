@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">당신의 삶에 꼭 필요한 철학</string>
+
+    <string name="sub_title">지금 당신은?</string>
+
+    <string name="category01">자유로운 삶을 위하여</string>
+    <string name="category02">후회없는 인생을 위하여</string>
+    <string name="category03">인생의 갈림 길에서 흔들리는 그대에게</string>
+    <string name="category04">사랑에 대하여</string>
+    <string name="category05">원하는 것을 얻기 위해서</string>
+    <string name="category06">꿈을 쫓는 모험가들에게</string>
+    <string name="category07">진리를 추구하는 자들에게</string>
+    <string name="category08">배움의 종착역</string>
+    <string name="category09">상처, 슬픔, 불행… 좋지 못한 것에 대하여</string>
+
+    <string name="favorite">내가 좋아하는 글 보기</string>
+    <string name="goMain">메인 화면으로 이동</string>
+
+    <string name="startButton">시 작 하 기</string>
+    <string name="exitButton">종 료 하 기</string>
+
+    <string name="selectAll">모두 선택</string>
+    <string name="selectCancel">선택 해제</string>
+    <string name="selectDelete">선택 항목 제거</string>
+    <string name="favoriteDelete">현재 글 제거</string>
+
+    <string name="favoriteDeleteDialog">내가 좋아하는 글 목록에서 제거하시겠습니까?</string>
+    <string name="deleteYes">확인</string>
+    <string name="deleteCancel">취소</string>
+
+</resources>

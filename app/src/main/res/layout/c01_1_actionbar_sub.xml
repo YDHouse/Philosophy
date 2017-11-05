@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/iconMenu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_menu_states"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/textCategoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_title"
+            android:textSize="24sp"
+            android:textColor="@color/textBlack"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/iconExit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_exit_states"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/iconBack"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_back_states"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_height="1dip"
+            android:layout_width="match_parent"
+            android:background="#b1b1b1"/>
+    </LinearLayout>
+
+</LinearLayout>
