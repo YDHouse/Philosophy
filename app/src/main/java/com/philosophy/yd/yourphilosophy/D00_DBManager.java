@@ -26,7 +26,7 @@ class D00_DBManager extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE `PHILOSOPHY` ( `ID` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `SECTION` INTEGER NOT NULL, `CONTENT` TEXT NOT NULL, 'AUTHOR' TEXT NOT NULL, 'ANNOTATION' TEXT NOT NULL, 'FAVORITE' INTEGER NOT NULL )");
-
+        //DB 삭제
     }
 
     @Override
