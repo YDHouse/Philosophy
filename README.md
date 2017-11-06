@@ -12,26 +12,26 @@
 
 <br />
 
- > ##### 1. 다양한 카테고리, 리스트뷰를 사용
-![app_image_01](./app/src/main/res/drawable/markdown/1.png)
+ > ##### 1. 다양한 카테고리를 효과적으로 표시하기 위해 리스트뷰를 사용
+<img src="./app/src/main/res/drawable/markdown/image1.png" width="300px" height="480px"></img>
 
 
 <br />
 
  > ##### 2. 카테고리 중 하나를 선택하면 해당 카테고리의 리스트가 나온다, 마찬가지로 리스트뷰를 사용
-![app_image_02](./app/src/main/res/drawable/markdown/2.png)
+<img src="./app/src/main/res/drawable/markdown/image2.png" width="300px" height="480px"></img>
 
 <br />
 
  > #### 3. 글 하나 상세보기, ViewPager 효과를 적용
-![app_image_03](./app/src/main/res/drawable/markdown/3.png)
+<img src="./app/src/main/res/drawable/markdown/image3.png" width="300px" height="480px"></img>
 
 <br />
 
  > #### 4. 메뉴드로어를 이용한 메뉴화면
-![app_image_04](./app/src/main/res/drawable/markdown/6.png)
+<img src="./app/src/main/res/drawable/markdown/image6.png" width="300px" height="480px"></img>
 
 <br />
 
  > #### 5. 내가 좋아하는 글의 목록
-![app_image_04](./app/src/main/res/drawable/markdown/7.png)
+<img src="./app/src/main/res/drawable/markdown/image7.png" width="300px" height="480px"></img>
